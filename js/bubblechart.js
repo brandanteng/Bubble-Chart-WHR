@@ -42,7 +42,7 @@
  var svgHeight = +svg.attr('height');
  
  var padding = {t: 60, r: 40, b: 60, l: 50};
- var colors = {white: '#fff', lightGray: '#888', purple: '#a442f4'};
+ var colors = {white: '#fff', lightGray: '#888', yellow: '#FFD700'};
  
  var chartWidth = (svgWidth * 2/3) - padding.l - padding.r;
  var chartHeight = svgHeight - padding.t - padding.b;
@@ -472,7 +472,7 @@
          .attr('class', 'bar');
  
      barEnter.append('rect')
-         .style('fill', function() { return colors.purple; })
+         .style('fill', function() { return colors.yellow; })
          .attr('rx', 3);
  
      barEnter.append('text');
