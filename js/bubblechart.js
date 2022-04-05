@@ -1,9 +1,3 @@
-/**
- * Draws an interactive bubble chart showing how each of six factors contributes
- * to a country's happiness score.
- *
- */
-
  var selectedYear = 2015;
  var selectedIndicator = 'GDP';
  var selectedCountry = 'Singapore';
