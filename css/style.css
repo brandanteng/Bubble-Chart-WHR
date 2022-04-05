@@ -77,12 +77,12 @@ p.description {
 }
 
 .filter.selected text {
-    fill: #fff;
+    fill: #000;
     font-weight: bold;
 }
 
 .filter.selected rect {
-    fill: #a442f4;
+    fill: #FFD700;
 }
 
 /* Country Details */
