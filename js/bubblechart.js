@@ -36,7 +36,7 @@
  var svgHeight = +svg.attr('height');
  
  var padding = {t: 60, r: 40, b: 60, l: 50};
- var colors = {white: '#fff', lightGray: '#888', yellow: '#FFD700'};
+ var colors = {white: '#fff', lightGray: '#888', yellow: '#F8CF46'};
  
  var chartWidth = (svgWidth * 2/3) - padding.l - padding.r;
  var chartHeight = svgHeight - padding.t - padding.b;
