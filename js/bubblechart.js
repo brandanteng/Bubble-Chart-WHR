@@ -194,7 +194,7 @@
  var barChartWidth = countryDetailsWidth;
  var barChartHeight = countryDetailsHeight / 1.8;
  
- var years = [2015, 2016, 2017, 2018, 2019, 2020];
+ var years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022];
  
  // Color mapping by region
  var regionColors = {'America': '#49f47f', 'Europe': '#f44949', 'Africa': '#49c9f4', 'Asia/ Oceania': '#f4b642'};
