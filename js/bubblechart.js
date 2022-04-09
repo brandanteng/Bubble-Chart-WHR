@@ -201,7 +201,7 @@
  
  var radius = 6;
  
- d3.csv('./data/yearlyData.csv',
+ d3.csv('./data/bubblechart.csv',
      function(d) {
          return {
              country: d['Country'],
